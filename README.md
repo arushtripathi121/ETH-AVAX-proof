@@ -1,6 +1,15 @@
-# ETH-AVAX-proof
+MyContract
+Overview
+MyContract calculates percentages, determines pass/fail, and generates grades.
 
-In this project i have checked the following function 
-require(); - check is the value is greater than required value or not
-assert(); - check the internal values
-revert(); - check if the value, if the value is not par as per expectation then return error message.
+Functions
+calculatePercentage(uint _obtainedMarks, uint _totalMarks): Compute percentage and set pass/fail message.
+generateResult(): Set grade based on the percentage.
+Usage
+Deploy the Contract.
+Call calculatePercentage(85, 100) to set percentage.
+Call generateResult() to get the grade.
+State Variables
+percentageObtained: The percentage score.
+resultMessage: "pass" or "fail".
+grade: The letter grade.
