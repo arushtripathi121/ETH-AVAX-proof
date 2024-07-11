@@ -16,6 +16,7 @@ contract MyContract {
 
         if (percentageObtained < 30) {
             resultMessage = "fail";
+            revert('better luck next time...');
         } else {
             resultMessage = "pass";
         }
