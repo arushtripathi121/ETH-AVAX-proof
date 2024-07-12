@@ -35,8 +35,7 @@ To run this program, you can use Remix, an online Solidity IDE. To get started, 
 
 ## Authors
 
-Metacrafter Chris  
-[@metacraftersio](https://twitter.com/metacraftersio)
+Arush Tripathi
 
 ## License
 
